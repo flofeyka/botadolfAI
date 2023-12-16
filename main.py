@@ -139,7 +139,7 @@ async def enable_AI(message: types.Message):
 
 #messages counter and entering messages into the db
 @dp.message_handler(content_types=["text"])
-async def huilo(message: types.Message):
+async def valueEditor(message: types.Message):
     global messagess
     messagess = messagess + 1
     if enabled == 0:
